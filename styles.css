@@ -1,0 +1,231 @@
+body {
+  background-image: url("./Assets/background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+.navBar {
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navBar a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+  text-shadow: 1px 1px 2px white;
+  transition: 0.5s ease-in-out;
+}
+
+.navBar a:hover {
+  transform: scale(1.1);
+}
+
+.navBar a.active {
+  color: #d5c5e3;
+}
+
+.homeContainer {
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+}
+
+.homeImage {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  margin-right: 3%;
+  transition: 0.5s ease-in-out;
+  filter: drop-shadow(0.1rem 0.1rem 0.5rem black);
+}
+
+.homeImage:hover {
+  transform: rotate(2deg) scale(1.04);
+}
+
+.headingBox1 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+}
+
+.headingBox2 {
+  line-height: 6rem;
+}
+
+.homeHeading {
+  font-family: Pacifico;
+  font-size: 4rem;
+  margin: 0%;
+  width: fit-content;
+}
+
+.homeHeadingText {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.footerBox {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: lightpink;
+}
+
+.contactBox {
+  display: flex;
+  margin-top: 3%;
+}
+
+.contact {
+  width: 35%;
+  height: 27rem;
+  margin: 3% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+  padding: 50px;
+  color: white;
+}
+
+.contactHeading {
+  font-family: Pacifico;
+  font-size: 2.3rem;
+  font-weight: 500;
+  margin-bottom: 5%;
+  margin-top: 0%;
+}
+
+.contactFormBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactInput {
+  margin-bottom: 10%;
+  height: 2.5rem;
+  border-radius: 5px;
+  width: 25rem;
+  border: none;
+  font-size: 1.1rem;
+}
+
+.contactInput:focus {
+  outline: 4px solid#b5146c;
+}
+
+.contactInputMsg {
+  border-radius: 5px;
+  border: none;
+  font-size: 1.1rem;
+}
+
+.contactInputMsg:focus {
+  outline: 4px solid#b5146c;
+}
+
+.inputLabels {
+  font-size: 1.1rem;
+}
+
+.contactSubmit {
+  background-color: #cc3f75;
+  border-radius: 5px;
+  border: 1px solid #c20f5a;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+  margin-top: 2%;
+  height: 2.3rem;
+  font-size: 1.3rem;
+}
+.contactSubmit:hover {
+  background-color: #b5146c;
+}
+
+.contactDetails {
+  width: 20%;
+  height: 20rem;
+  margin: 3% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+  padding: 50px;
+  color: white;
+}
+
+.contactDetailsText {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.contactDetailsLink {
+  color: white;
+}
+
+.aboutContainer {
+  margin-top: 8%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.aboutText {
+  font-size: 2rem;
+  width: 60%;
+  color: white;
+}
+
+.gallery {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.set1 {
+  display: flex;
+  justify-content: center;
+}
+
+.galleryImage {
+  padding: 13px;
+  transition: 0.5s ease;
+  border-radius: 20px;
+}
+
+.galleryImage:hover {
+  transform: scale(1.02);
+}
