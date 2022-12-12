@@ -70,6 +70,25 @@ body {
   font-weight: lighter;
 }
 
+.resumeContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15%;
+}
+
+.resumeLink {
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.resumeLink:hover {
+  font-weight: 600;
+  background-color: #e2d9fc40;
+}
+
 .footerBox {
   display: flex;
   justify-content: center;
